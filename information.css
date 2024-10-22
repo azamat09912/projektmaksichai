@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 1800px;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 2px 0;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+ 
+   
+}
+a{
+    text-decoration: none;
+}
+.foto1{
+    width: 116px;
+    
+}
+.text{
+    position: relative;
+    left: 500px;
+    bottom: 50px;
+   
+    
+}
+.Menu{
+    color: rgb(0, 152, 38);
+    padding-left: 200px;
+    transition-duration: 500ms;
+
+}
+.Menu-1{
+    color: rgb(0, 152, 38);
+    position: relative;
+    right: 200px;
+}
+.Menu-2{
+    color: rgb(0, 152, 38);
+    position: relative;
+    bottom: 25px;
+    left: 200px;
+}
+.Menu-3{
+    color: rgb(0, 152, 38);
+    position: relative;
+    bottom: 55px;
+    left: 600px;
+    letter-spacing: 1px;
+}
+.sotdrudniki{
+    display: flex;
+    justify-content: center;
+     position: relative;
+    top: 120px;
+    font-size: 40px;
+     color: rgb(14, 122, 0);
+}
+
+.img-card{
+    width: 360px;
+    border-radius: 6px;
+    transition-duration: 1s;
+}
+.img-card:hover  {
+    transform: scale(0.9);
+}
+.card-container{
+    margin: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+    bottom: 100px;
+    display: grid;
+    grid-template-columns: 390px 390px 390px;
+    column-gap: 20px;
+    row-gap: 70px;
+}
+
+
+

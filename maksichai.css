@@ -1,0 +1,157 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+  
+    padding: 1px 0 ;
+    margin-bottom: 10px;
+    position: fixed;
+    margin: 0px 0px 10px;
+    width: 100%;
+    z-index: 2;
+
+}
+a{
+    text-decoration: none;
+}
+.foto1{
+    width: 116px;
+    position: relative;
+    top: 12px;
+    
+}
+.text{
+    position: relative;
+    left: 500px;
+    bottom: 50px;
+   
+    
+}
+.Menu{
+    color: rgb(0, 152, 38);
+    padding-left: 200px;
+    transition-duration: 500ms;
+
+}
+.Menu-1{
+    color: rgb(0, 152, 38);
+    position: relative;
+    right: 200px;
+    bottom: 20px;
+}
+.Menu-2{
+    color: rgb(0, 152, 38);
+    position: relative;
+    bottom: 65px;
+    left: 200px;
+}
+.Menu-3{
+    color: rgb(0, 152, 38);
+    position: relative;
+    bottom: 110px;
+    left: 600px;
+    letter-spacing: 1px;
+}
+.sotdrudniki{
+    display: flex;
+    justify-content: center;
+     position: relative;
+    top: 120px;
+    font-size: 40px;
+     color: rgb(14, 122, 0);
+}
+
+.box{
+    padding: 120px;
+    font-size: 25px;
+    
+    
+}
+.box-2{
+      position: relative;
+     left: 720px;
+     top: 220px;
+     bottom: 500px;
+     font-size: 20px;
+}
+.box-3{
+    position: relative;
+   left: 120px;
+   top:490px;
+   font-size: 20px;
+   
+}
+.box-4{
+    position: relative;
+   left: 720px;
+   top: 830px;
+   font-size: 20px;
+   
+}
+.box-img{
+    width: 300px;
+    
+}
+.box-img-1{
+    width: 400px;
+    position: relative;
+    left: 900px;
+    bottom: 1090px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+li{
+    color: green;
+}
+.box-img-2{
+    width: 430px;
+    position: relative;
+    bottom: 990px;
+    left: 100px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.box-img-3{
+    width: 430px;
+    position: relative;
+    bottom: 900px;
+    left: 900px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.box-img-4{
+    width: 430px;
+    position: relative;
+    bottom: 900px;
+    left: 100px;
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+table{
+    width: 100%;
+    position: relative;
+    left: -5px;
+    bottom: 700px;
+    height: 120px;
+    height: 500px;
+}
+tr{
+    font-size: 20px;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+   
+}
+tr:hover{
+    background-color: rgb(170, 170, 170);
+    font-weight: 900;
+}
+th{
+    background-color: green;
+    color: black;
+}
+.body-box{
+    position: relative;
+    top: 70px;
+}
